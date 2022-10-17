@@ -1,0 +1,281 @@
+:root
+{
+    --primary: #FBC257;
+    --primary-light:#FCCC73;
+    --dark-brown: #341413;
+    --gray-1: #798092;
+    --gray-2: #E6E6ED;
+
+    --header-1:64px;
+    --header-2:48px;
+    --header-3: 42px;
+    --header-4: 32px;
+
+    --text-medium:18px;
+    --text-regular:16px;
+    --text-light:13px;
+
+    --font-weight-bold:700;
+    --font-weight-semibbold:600;
+    --font-weight-medium:500;
+    --font-weight-regular:400;
+    --font-weight-light:300;
+}
+.background
+{
+    font-family: 'Poppins', sans-serif;
+    background: #000532;
+}
+.navbar
+{
+    background: #000532;
+}
+.navbar ul li a
+{
+    color: white;
+}
+#text_font
+{
+    font-weight: 700;
+    font-size: 5em;
+}
+.font-p p
+{
+    padding: 40px;
+    font-size: 1em;
+}
+.work h2
+{
+    font-size: 4em;
+    font-weight: 700;
+}
+.work #text_work
+{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+}
+.hero
+{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+#work
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.hero .d-grid .btn:hover
+{
+    background: black;
+    color: #fff;
+    border:1px solid black;
+}
+#cards
+{
+    justify-content: space-between;
+}
+.portfolio
+{
+    padding-bottom: 5%;
+}
+#skills
+{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#services
+{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.portfolio .name
+{
+    font-size: 2em;
+    font-weight: 300;
+    margin: auto;
+    margin-top: 40%;
+}
+#portfolio .text_portfolio
+{
+    font-size: 4em;
+    font-weight: 700;
+}
+.portfolio span
+{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.portfolio p
+{
+    font-size: 1em;
+    font-weight: 300;
+    margin: auto;
+    margin-top: 5%; 
+}
+#portfolio h2
+{
+    font-size: 2em;
+    font-weight: 700;
+}
+#aboutme h2
+{
+    font-size: 2em;
+    font-weight: 700;
+}
+#service
+{
+        justify-content: space-between;
+}
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+@media screen and (max-width:570px)
+{
+    #service
+    {
+        justify-content: center;
+    }
+    #cards
+    {
+        justify-content: center;
+    }
+    .card-title p
+    {
+        font-weight: 300;
+        font-size: 1em;
+    }
+    #text_font
+    {
+        font-weight: 700;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+    .work h2
+    {
+        font-size: 2em;
+    }
+    .work p
+    {
+        font-size: 1em;
+        font-weight: 700;
+        color: #fff;
+    }
+    .work
+    {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .navbar-nav .nav-item .nav-link
+    {
+        font-size: 1.5em;
+    }
+    .portfolio .name
+    {
+        font-size: 15px;
+        font-weight: 300;
+        margin: auto;
+    }
+    .portfolio h2
+    {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .portfolio span
+    {
+        font-size: 1em;
+        font-weight: 500;
+    }
+    .portfolio p
+    {
+        font-size: 15px;
+        font-weight: 300;
+        margin: auto;
+    }
+    #portfolio .text_portfolio
+    {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #aboutme h2
+    {
+        font-size: 1,5em;
+        font-weight: 700;
+    }
+    .footer h4
+    {
+        font-size: 1em;
+    }
+    .footer p
+    {
+        font-size: 15px;
+    }
+}    
+@media screen and (max-width:890px)
+{
+    .footer h4
+    {
+        font-size: 15px;
+    }
+    .footer p
+    {
+        font-size: 1em;
+    }
+    #service
+    {
+        justify-content: center;
+    }
+    #cards
+    {
+        justify-content: center;
+    }
+    .card-title p
+    {
+        font-weight: 300;
+        font-size: 1em;
+    }
+    #text_font
+    {
+        font-weight: 700;
+        font-size: 2em;
+    }
+    #header
+    {
+        margin-top: -50px;
+    }
+    .work h2
+    {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .work p
+    {
+        font-size: 10px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .work
+    {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #portfolio .text_portfolio
+    {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #aboutme h2
+    {
+        font-size: 1,5em;
+        font-weight: 700;
+    }
+}
